@@ -8,7 +8,12 @@
     "jest": "^23.6.0"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "node:script": "jest --watch",
+    "node:coverage" : "jest --coverage"
+  },
+  "jest" : {
+    "testEnvironment" : "node"
   },
   "dependencies": {
     "body-parser": "^1.18.3",

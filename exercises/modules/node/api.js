@@ -8,6 +8,7 @@ const getUserById = (id, cb) => {
     }, 150)
   } 
   
+  
 const getPostsForUser = (userId, cb) => {
     // simulate API call
     setTimeout(() => {
